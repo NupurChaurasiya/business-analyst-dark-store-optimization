@@ -1,0 +1,501 @@
+Order ID,City,Dark Store ID,Product Category,Delivery Time,Traffic Level,Delivery Partner Rating,Customer Rating,Inventory Wastage %,Cancellation Status,Stock Availability,Delivery Distance,Order Value,Peak Hour,Weather Condition
+ORD1001,Delhi,DS-DL-01,Fruits & Vegetables,32,Low,4.8,3.6,2.7,No,In Stock,3.0,2269,Yes,Clear
+ORD1002,Mumbai,DS-MH-02,Baby Care,34,Medium,4.8,4.3,1.6,No,In Stock,3.5,1081,No,Cloudy
+ORD1003,Chennai,DS-CH-01,Beverages,31,Medium,3.9,3.5,2.8,No,In Stock,9.3,522,No,Cloudy
+ORD1004,Pune,DS-PN-03,Pet Supplies,37,High,4.5,3.7,4.9,No,Low Stock,8.8,1756,No,Rainy
+ORD1005,Pune,DS-PN-02,Personal Care,30,Low,4.6,4.2,1.3,No,In Stock,5.8,1202,No,Rainy
+ORD1006,Bangalore,DS-BL-04,Frozen Food,18,Low,4.7,4.8,5.6,No,In Stock,9.2,1488,Yes,Cloudy
+ORD1007,Hyderabad,DS-HY-03,Household,30,Medium,3.9,4.1,2.1,No,In Stock,9.1,1835,No,Rainy
+ORD1008,Chennai,DS-CH-01,Snacks,37,Medium,3.7,2.7,3.7,No,In Stock,4.5,2117,Yes,Clear
+ORD1009,Pune,DS-PN-03,Grocery,41,Medium,4.0,2.9,1.6,No,In Stock,7.5,1278,Yes,Cloudy
+ORD1010,Bangalore,DS-BL-01,Fruits & Vegetables,55,High,4.3,3.7,3.1,Yes,In Stock,1.2,1686,Yes,Rainy
+ORD1011,Pune,DS-PN-01,Grocery,30,Low,3.6,4.3,4.1,No,In Stock,5.3,2451,Yes,Clear
+ORD1012,Bangalore,DS-BL-03,Baby Care,53,High,4.6,3.1,3.7,No,In Stock,5.1,1215,No,Rainy
+ORD1013,Hyderabad,DS-HY-01,Personal Care,20,Low,3.8,4.9,4.4,No,In Stock,3.1,2188,Yes,Rainy
+ORD1014,Hyderabad,DS-HY-03,Snacks,53,High,3.8,2.6,2.7,Yes,In Stock,7.6,603,No,Rainy
+ORD1015,Mumbai,DS-MH-04,Personal Care,48,High,4.2,3.1,2.1,No,In Stock,5.0,2454,Yes,Rainy
+ORD1016,Delhi,DS-DL-01,Baby Care,48,High,4.2,3.8,4.6,Yes,In Stock,4.5,2063,Yes,Rainy
+ORD1017,Pune,DS-PN-02,Baby Care,30,Medium,3.8,3.6,3.9,No,In Stock,3.8,405,No,Rainy
+ORD1018,Ahmedabad,DS-AH-03,Baby Care,25,Low,4.5,4.4,1.5,No,Low Stock,3.2,362,Yes,Rainy
+ORD1019,Delhi,DS-DL-04,Pet Supplies,25,Medium,4.5,4.5,2.1,No,In Stock,6.8,2072,No,Cloudy
+ORD1020,Chennai,DS-CH-01,Grocery,33,Medium,4.3,3.6,2.4,No,In Stock,3.2,1367,Yes,Clear
+ORD1021,Bangalore,DS-BL-04,Baby Care,38,High,3.9,3.8,4.0,No,In Stock,3.5,1062,Yes,Cloudy
+ORD1022,Chennai,DS-CH-01,Fruits & Vegetables,23,Medium,4.5,4.9,1.2,No,In Stock,2.2,1272,No,Clear
+ORD1023,Bangalore,DS-BL-04,Baby Care,41,High,4.9,3.3,4.3,No,In Stock,2.3,722,Yes,Clear
+ORD1024,Mumbai,DS-MH-03,Personal Care,45,High,3.9,2.7,4.1,No,Low Stock,4.7,833,Yes,Cloudy
+ORD1025,Hyderabad,DS-HY-01,Snacks,56,High,4.7,3.8,4.2,No,In Stock,2.0,358,Yes,Rainy
+ORD1026,Ahmedabad,DS-AH-01,Dairy,41,High,4.7,3.8,4.9,No,In Stock,4.6,1341,No,Cloudy
+ORD1027,Delhi,DS-DL-03,Personal Care,22,Medium,3.7,5.0,1.7,Yes,Out of Stock,2.0,1979,No,Cloudy
+ORD1028,Chennai,DS-CH-03,Personal Care,34,Medium,3.9,4.2,1.0,Yes,Out of Stock,7.5,1007,Yes,Foggy
+ORD1029,Chennai,DS-CH-02,Beverages,35,High,4.6,3.8,2.2,No,In Stock,4.6,1411,No,Cloudy
+ORD1030,Bangalore,DS-BL-02,Frozen Food,38,Medium,4.0,3.3,4.0,No,In Stock,4.9,1519,No,Rainy
+ORD1031,Ahmedabad,DS-AH-02,Household,35,Medium,3.9,4.2,3.5,No,In Stock,9.6,1162,No,Rainy
+ORD1032,Pune,DS-PN-01,Dairy,31,Low,4.2,4.4,6.3,No,Low Stock,4.5,1836,Yes,Rainy
+ORD1033,Hyderabad,DS-HY-01,Grocery,42,High,4.7,3.5,2.9,No,In Stock,9.3,697,Yes,Foggy
+ORD1034,Ahmedabad,DS-AH-01,Household,31,Medium,4.7,4.4,2.7,Yes,Out of Stock,2.4,2144,No,Foggy
+ORD1035,Ahmedabad,DS-AH-02,Dairy,39,High,3.9,2.6,5.1,No,In Stock,3.9,2412,No,Foggy
+ORD1036,Delhi,DS-DL-02,Snacks,27,Low,4.0,4.0,1.2,No,Low Stock,4.5,280,Yes,Rainy
+ORD1037,Kolkata,DS-KL-02,Grocery,45,High,4.3,3.6,4.2,No,Low Stock,5.4,1317,No,Foggy
+ORD1038,Kolkata,DS-KL-02,Grocery,41,Medium,4.9,4.0,3.1,Yes,Out of Stock,7.0,543,No,Rainy
+ORD1039,Kolkata,DS-KL-01,Household,20,Low,3.8,4.5,4.0,No,In Stock,7.8,1926,No,Foggy
+ORD1040,Pune,DS-PN-01,Household,25,Low,3.6,5.0,1.2,No,In Stock,3.2,283,Yes,Cloudy
+ORD1041,Bangalore,DS-BL-02,Snacks,41,Medium,4.7,2.8,3.4,No,Low Stock,2.0,870,Yes,Rainy
+ORD1042,Pune,DS-PN-01,Pet Supplies,21,Low,4.9,4.4,3.4,No,Low Stock,3.2,1435,No,Foggy
+ORD1043,Delhi,DS-DL-01,Personal Care,30,Medium,4.5,3.5,2.7,No,In Stock,4.9,1683,No,Clear
+ORD1044,Ahmedabad,DS-AH-03,Snacks,29,Medium,4.2,4.2,2.1,No,Low Stock,8.5,554,No,Foggy
+ORD1045,Pune,DS-PN-02,Dairy,32,High,4.2,3.8,6.0,No,In Stock,3.3,1345,No,Cloudy
+ORD1046,Pune,DS-PN-03,Grocery,32,Medium,4.1,4.1,2.0,No,In Stock,7.4,2035,Yes,Clear
+ORD1047,Mumbai,DS-MH-01,Fruits & Vegetables,31,Low,4.1,4.1,2.4,Yes,Out of Stock,4.2,2058,Yes,Cloudy
+ORD1048,Pune,DS-PN-02,Fruits & Vegetables,23,Low,4.3,4.8,1.7,No,In Stock,5.4,2348,Yes,Cloudy
+ORD1049,Pune,DS-PN-01,Dairy,22,Low,4.6,4.3,4.2,No,In Stock,3.6,717,No,Rainy
+ORD1050,Ahmedabad,DS-AH-01,Grocery,29,Medium,4.0,4.5,2.0,No,Low Stock,2.0,467,No,Foggy
+ORD1051,Kolkata,DS-KL-02,Beverages,39,Medium,4.9,2.6,2.0,No,In Stock,4.7,1124,Yes,Rainy
+ORD1052,Kolkata,DS-KL-02,Household,24,Low,4.4,4.7,4.0,Yes,Out of Stock,2.9,532,No,Cloudy
+ORD1053,Bangalore,DS-BL-02,Snacks,33,Medium,4.5,4.0,1.1,No,In Stock,3.5,2059,Yes,Clear
+ORD1054,Delhi,DS-DL-02,Fruits & Vegetables,41,High,3.8,2.7,2.1,No,In Stock,1.5,1459,Yes,Foggy
+ORD1055,Pune,DS-PN-02,Beverages,26,Medium,4.3,4.0,1.3,No,In Stock,4.9,1520,No,Foggy
+ORD1056,Pune,DS-PN-01,Beverages,26,Low,4.6,3.7,3.1,No,In Stock,3.5,1985,Yes,Cloudy
+ORD1057,Ahmedabad,DS-AH-01,Household,32,Medium,3.7,3.7,2.6,No,In Stock,7.0,1840,No,Cloudy
+ORD1058,Mumbai,DS-MH-04,Beverages,34,Medium,4.1,4.0,5.0,No,In Stock,5.9,1892,No,Clear
+ORD1059,Mumbai,DS-MH-02,Baby Care,34,Medium,3.6,3.8,1.5,No,In Stock,8.9,2185,No,Foggy
+ORD1060,Delhi,DS-DL-01,Pet Supplies,51,High,4.3,2.6,5.0,Yes,Out of Stock,2.1,830,Yes,Cloudy
+ORD1061,Ahmedabad,DS-AH-03,Fruits & Vegetables,35,Medium,4.2,4.0,2.8,No,In Stock,2.7,2281,No,Foggy
+ORD1062,Bangalore,DS-BL-01,Fruits & Vegetables,48,High,3.9,2.5,3.9,Yes,Low Stock,6.9,808,No,Cloudy
+ORD1063,Ahmedabad,DS-AH-03,Household,27,Medium,4.8,4.5,2.0,No,In Stock,8.7,1882,No,Foggy
+ORD1064,Mumbai,DS-MH-03,Household,36,High,4.2,2.6,3.0,No,In Stock,8.8,2003,No,Foggy
+ORD1065,Delhi,DS-DL-04,Grocery,40,High,4.7,2.9,3.5,No,In Stock,1.7,1545,No,Rainy
+ORD1066,Kolkata,DS-KL-02,Household,46,High,4.5,2.9,1.9,No,In Stock,7.8,611,Yes,Clear
+ORD1067,Ahmedabad,DS-AH-01,Fruits & Vegetables,37,High,4.0,3.1,2.0,No,In Stock,7.1,937,Yes,Cloudy
+ORD1068,Bangalore,DS-BL-02,Beverages,36,Medium,3.7,3.2,2.0,No,In Stock,1.1,2105,No,Rainy
+ORD1069,Pune,DS-PN-03,Baby Care,24,Low,3.9,5.0,3.8,No,In Stock,3.7,1775,No,Cloudy
+ORD1070,Ahmedabad,DS-AH-01,Dairy,33,Medium,3.9,4.5,6.6,No,In Stock,6.1,400,No,Cloudy
+ORD1071,Ahmedabad,DS-AH-02,Dairy,36,Medium,4.4,3.5,6.9,No,In Stock,8.5,597,No,Rainy
+ORD1072,Mumbai,DS-MH-03,Household,21,Low,4.0,4.5,1.8,No,Low Stock,8.9,1698,No,Rainy
+ORD1073,Pune,DS-PN-01,Fruits & Vegetables,42,High,4.7,3.2,1.3,No,Low Stock,3.0,1827,No,Cloudy
+ORD1074,Chennai,DS-CH-01,Frozen Food,27,Low,4.6,3.8,5.5,No,In Stock,4.3,1157,Yes,Foggy
+ORD1075,Ahmedabad,DS-AH-01,Pet Supplies,40,High,4.9,3.0,2.6,No,In Stock,9.5,1446,No,Rainy
+ORD1076,Ahmedabad,DS-AH-01,Beverages,26,Low,4.5,4.2,4.8,No,In Stock,7.7,832,Yes,Foggy
+ORD1077,Kolkata,DS-KL-03,Beverages,33,High,4.5,3.7,2.8,No,In Stock,4.3,1704,No,Cloudy
+ORD1078,Chennai,DS-CH-01,Frozen Food,23,Low,3.8,4.7,7.9,No,In Stock,4.0,715,Yes,Foggy
+ORD1079,Hyderabad,DS-HY-01,Baby Care,32,Low,4.7,4.1,2.1,No,Out of Stock,5.9,914,Yes,Rainy
+ORD1080,Delhi,DS-DL-01,Snacks,18,Low,3.9,4.3,2.7,No,In Stock,1.6,2036,Yes,Cloudy
+ORD1081,Chennai,DS-CH-03,Pet Supplies,31,Low,4.0,4.1,1.1,No,Out of Stock,4.8,642,Yes,Clear
+ORD1082,Ahmedabad,DS-AH-03,Household,27,Low,3.6,3.8,3.5,No,In Stock,3.9,2373,Yes,Cloudy
+ORD1083,Pune,DS-PN-02,Baby Care,42,Medium,4.5,3.7,3.9,No,In Stock,5.1,1135,Yes,Clear
+ORD1084,Kolkata,DS-KL-02,Household,32,Medium,4.5,3.9,1.6,Yes,Out of Stock,8.5,581,Yes,Cloudy
+ORD1085,Kolkata,DS-KL-01,Personal Care,40,High,4.0,3.5,4.0,No,Low Stock,7.5,1378,Yes,Cloudy
+ORD1086,Pune,DS-PN-02,Beverages,41,Medium,4.8,3.0,3.2,No,In Stock,3.5,1126,Yes,Rainy
+ORD1087,Kolkata,DS-KL-03,Pet Supplies,25,Medium,3.9,4.8,4.7,No,In Stock,2.6,786,Yes,Cloudy
+ORD1088,Kolkata,DS-KL-01,Snacks,51,High,4.1,3.2,1.6,Yes,In Stock,9.5,547,Yes,Clear
+ORD1089,Mumbai,DS-MH-02,Snacks,45,High,4.5,3.2,2.8,No,In Stock,7.8,666,Yes,Clear
+ORD1090,Chennai,DS-CH-02,Beverages,15,Low,3.8,5.0,1.2,No,In Stock,9.5,762,No,Cloudy
+ORD1091,Pune,DS-PN-02,Personal Care,17,Low,3.7,4.6,1.9,No,In Stock,7.0,1650,No,Foggy
+ORD1092,Delhi,DS-DL-04,Grocery,35,Medium,4.0,3.9,2.6,No,In Stock,3.6,1859,No,Clear
+ORD1093,Mumbai,DS-MH-03,Snacks,34,High,4.2,3.6,2.7,No,In Stock,1.7,1470,No,Cloudy
+ORD1094,Chennai,DS-CH-01,Personal Care,54,High,3.8,3.7,2.4,Yes,Out of Stock,2.3,621,Yes,Clear
+ORD1095,Bangalore,DS-BL-03,Dairy,25,Low,4.4,4.6,6.3,No,In Stock,7.1,1523,Yes,Clear
+ORD1096,Chennai,DS-CH-01,Household,19,Low,4.4,4.5,1.3,No,In Stock,1.3,1710,No,Cloudy
+ORD1097,Pune,DS-PN-01,Beverages,31,Medium,4.3,4.3,4.6,No,In Stock,8.3,971,No,Foggy
+ORD1098,Chennai,DS-CH-03,Household,31,Medium,4.8,3.8,3.9,No,In Stock,2.6,1214,Yes,Foggy
+ORD1099,Ahmedabad,DS-AH-02,Baby Care,31,Medium,4.1,4.3,3.7,No,In Stock,6.7,1570,Yes,Cloudy
+ORD1100,Delhi,DS-DL-03,Beverages,26,Medium,4.6,4.2,4.6,No,Low Stock,4.0,779,No,Cloudy
+ORD1101,Chennai,DS-CH-02,Frozen Food,28,Low,4.5,3.8,4.5,No,Low Stock,9.5,2356,Yes,Cloudy
+ORD1102,Delhi,DS-DL-04,Baby Care,24,Medium,4.9,4.5,4.1,No,In Stock,10.0,834,No,Cloudy
+ORD1103,Delhi,DS-DL-03,Beverages,40,Medium,3.7,3.1,1.6,No,Low Stock,7.9,878,Yes,Cloudy
+ORD1104,Ahmedabad,DS-AH-01,Frozen Food,35,Medium,4.6,4.3,4.9,No,In Stock,9.7,2121,Yes,Foggy
+ORD1105,Hyderabad,DS-HY-02,Pet Supplies,44,High,4.3,3.1,1.6,No,In Stock,6.4,1224,No,Cloudy
+ORD1106,Mumbai,DS-MH-04,Personal Care,28,Medium,4.6,3.8,4.6,No,In Stock,4.9,1109,Yes,Clear
+ORD1107,Ahmedabad,DS-AH-02,Grocery,25,Medium,4.1,4.3,1.9,No,In Stock,1.9,1573,No,Cloudy
+ORD1108,Bangalore,DS-BL-02,Grocery,28,Low,4.4,4.4,1.1,No,In Stock,2.3,2361,No,Rainy
+ORD1109,Kolkata,DS-KL-01,Fruits & Vegetables,23,Low,4.5,4.7,1.3,No,Low Stock,5.5,2395,Yes,Clear
+ORD1110,Mumbai,DS-MH-02,Snacks,24,Low,4.1,4.7,1.3,Yes,Out of Stock,5.7,2278,Yes,Cloudy
+ORD1111,Mumbai,DS-MH-04,Household,19,Low,4.6,4.5,1.3,No,In Stock,6.9,624,No,Cloudy
+ORD1112,Chennai,DS-CH-01,Grocery,41,Medium,5.0,3.2,1.7,No,In Stock,7.4,2074,No,Rainy
+ORD1113,Mumbai,DS-MH-03,Dairy,24,Low,4.3,5.0,6.2,No,In Stock,7.8,982,Yes,Clear
+ORD1114,Pune,DS-PN-02,Grocery,35,High,4.7,3.9,2.6,No,In Stock,9.6,1588,No,Cloudy
+ORD1115,Bangalore,DS-BL-04,Household,33,Medium,4.1,3.9,5.0,No,In Stock,3.6,620,No,Clear
+ORD1116,Delhi,DS-DL-03,Fruits & Vegetables,39,Medium,4.0,2.6,4.5,No,In Stock,10.0,1324,No,Rainy
+ORD1117,Mumbai,DS-MH-01,Frozen Food,32,Medium,4.4,4.3,4.1,No,In Stock,8.0,1700,Yes,Clear
+ORD1118,Chennai,DS-CH-02,Pet Supplies,24,Low,4.2,4.3,1.6,No,In Stock,3.8,1341,Yes,Foggy
+ORD1119,Hyderabad,DS-HY-01,Grocery,49,High,3.7,3.7,3.8,Yes,In Stock,7.2,2211,No,Foggy
+ORD1120,Hyderabad,DS-HY-01,Snacks,49,High,4.7,4.0,4.9,No,In Stock,5.9,1389,No,Rainy
+ORD1121,Pune,DS-PN-01,Snacks,46,High,3.7,3.7,1.1,Yes,In Stock,8.2,2459,Yes,Clear
+ORD1122,Bangalore,DS-BL-01,Beverages,34,Medium,4.1,4.1,1.5,No,In Stock,1.7,2108,No,Foggy
+ORD1123,Chennai,DS-CH-01,Baby Care,37,Medium,4.7,3.3,2.2,No,In Stock,9.4,1123,Yes,Rainy
+ORD1124,Chennai,DS-CH-03,Fruits & Vegetables,54,High,3.7,3.0,3.1,Yes,In Stock,9.5,831,No,Rainy
+ORD1125,Bangalore,DS-BL-03,Pet Supplies,22,Low,4.7,4.4,1.8,No,In Stock,6.6,324,Yes,Clear
+ORD1126,Ahmedabad,DS-AH-03,Baby Care,18,Low,4.7,4.7,2.2,No,In Stock,1.5,2000,No,Foggy
+ORD1127,Kolkata,DS-KL-02,Household,27,Low,5.0,3.8,2.6,No,Low Stock,5.6,634,Yes,Cloudy
+ORD1128,Chennai,DS-CH-01,Household,20,Low,3.6,5.0,4.5,No,In Stock,9.7,854,No,Rainy
+ORD1129,Chennai,DS-CH-03,Personal Care,28,Low,4.2,3.8,1.1,Yes,Out of Stock,9.7,1081,Yes,Foggy
+ORD1130,Chennai,DS-CH-01,Grocery,23,Low,3.5,4.3,1.5,No,In Stock,4.3,1851,No,Cloudy
+ORD1131,Chennai,DS-CH-01,Frozen Food,27,Low,3.6,4.0,7.1,No,In Stock,9.9,686,Yes,Cloudy
+ORD1132,Bangalore,DS-BL-01,Frozen Food,34,Medium,3.7,4.1,5.6,No,In Stock,1.4,1564,No,Cloudy
+ORD1133,Ahmedabad,DS-AH-03,Household,28,Low,3.7,4.5,4.0,No,In Stock,4.0,2287,Yes,Cloudy
+ORD1134,Ahmedabad,DS-AH-03,Pet Supplies,27,Low,3.7,3.9,2.2,No,Low Stock,8.8,309,Yes,Cloudy
+ORD1135,Ahmedabad,DS-AH-02,Pet Supplies,30,Medium,4.4,4.1,4.4,No,In Stock,7.1,329,Yes,Foggy
+ORD1136,Delhi,DS-DL-02,Grocery,32,Medium,4.1,4.3,4.7,No,Low Stock,7.6,455,No,Rainy
+ORD1137,Bangalore,DS-BL-02,Baby Care,27,Medium,4.9,4.0,3.1,No,In Stock,7.1,1282,No,Foggy
+ORD1138,Ahmedabad,DS-AH-01,Dairy,24,Low,4.6,4.8,6.0,No,In Stock,6.0,1320,No,Rainy
+ORD1139,Pune,DS-PN-01,Pet Supplies,35,Medium,4.0,4.3,1.6,No,In Stock,9.6,523,No,Foggy
+ORD1140,Chennai,DS-CH-02,Fruits & Vegetables,60,High,4.5,2.7,3.5,Yes,In Stock,7.0,2375,Yes,Rainy
+ORD1141,Hyderabad,DS-HY-03,Dairy,22,Low,3.7,4.8,4.0,No,In Stock,9.4,1866,No,Cloudy
+ORD1142,Ahmedabad,DS-AH-02,Dairy,41,High,4.5,3.9,4.4,No,In Stock,5.8,352,No,Cloudy
+ORD1143,Bangalore,DS-BL-04,Snacks,50,High,4.9,3.9,4.7,Yes,Low Stock,6.1,639,Yes,Foggy
+ORD1144,Chennai,DS-CH-02,Household,54,High,3.9,3.7,2.3,Yes,Low Stock,7.5,257,No,Rainy
+ORD1145,Chennai,DS-CH-02,Pet Supplies,45,Medium,4.7,3.3,1.3,No,In Stock,2.7,775,Yes,Rainy
+ORD1146,Ahmedabad,DS-AH-02,Dairy,27,Low,4.9,3.8,6.9,No,In Stock,6.9,1167,No,Rainy
+ORD1147,Mumbai,DS-MH-01,Household,33,Medium,3.7,4.4,2.2,No,In Stock,3.0,747,No,Cloudy
+ORD1148,Ahmedabad,DS-AH-01,Household,49,High,4.9,3.6,4.2,No,Low Stock,7.1,535,No,Foggy
+ORD1149,Ahmedabad,DS-AH-03,Personal Care,29,Low,3.8,4.0,1.7,No,Low Stock,5.0,1041,Yes,Clear
+ORD1150,Ahmedabad,DS-AH-01,Baby Care,30,Medium,4.1,4.1,3.2,No,In Stock,3.8,289,Yes,Foggy
+ORD1151,Kolkata,DS-KL-02,Grocery,49,High,4.6,3.3,1.2,No,Low Stock,5.2,1375,Yes,Clear
+ORD1152,Kolkata,DS-KL-01,Snacks,44,High,4.2,3.9,2.5,No,In Stock,9.7,2408,No,Cloudy
+ORD1153,Bangalore,DS-BL-03,Beverages,21,Low,4.6,5.0,2.9,No,Low Stock,4.8,1753,No,Rainy
+ORD1154,Hyderabad,DS-HY-01,Household,36,Medium,3.5,3.5,3.5,No,Out of Stock,3.2,475,No,Rainy
+ORD1155,Delhi,DS-DL-01,Household,41,Medium,4.2,3.3,4.0,No,Low Stock,2.3,1384,Yes,Rainy
+ORD1156,Hyderabad,DS-HY-03,Pet Supplies,30,Medium,5.0,4.0,2.7,No,In Stock,6.0,917,No,Rainy
+ORD1157,Kolkata,DS-KL-03,Household,23,Low,4.0,4.5,1.6,No,In Stock,7.8,2139,No,Foggy
+ORD1158,Hyderabad,DS-HY-01,Fruits & Vegetables,39,High,4.1,3.1,3.1,No,In Stock,3.3,1552,Yes,Foggy
+ORD1159,Delhi,DS-DL-04,Personal Care,24,Low,4.5,4.7,4.5,No,In Stock,7.9,2489,Yes,Clear
+ORD1160,Hyderabad,DS-HY-02,Dairy,32,High,3.8,3.7,7.0,No,Low Stock,7.8,1193,No,Cloudy
+ORD1161,Hyderabad,DS-HY-02,Dairy,29,Medium,4.3,3.9,5.0,No,In Stock,5.5,603,No,Foggy
+ORD1162,Ahmedabad,DS-AH-02,Dairy,31,Medium,4.8,4.2,4.1,No,In Stock,6.3,1910,No,Clear
+ORD1163,Pune,DS-PN-01,Dairy,36,Medium,4.5,3.5,5.0,No,Low Stock,9.7,2209,No,Rainy
+ORD1164,Ahmedabad,DS-AH-01,Personal Care,26,Low,4.3,4.3,1.3,No,Low Stock,1.4,226,No,Rainy
+ORD1165,Kolkata,DS-KL-01,Dairy,24,Low,4.2,4.2,6.6,No,Out of Stock,6.9,264,Yes,Clear
+ORD1166,Mumbai,DS-MH-04,Grocery,15,Low,4.3,4.8,2.7,Yes,Out of Stock,9.3,2347,No,Cloudy
+ORD1167,Bangalore,DS-BL-02,Dairy,26,Medium,4.7,3.6,7.8,No,In Stock,3.2,1125,No,Cloudy
+ORD1168,Pune,DS-PN-03,Beverages,33,Medium,4.1,4.0,3.5,No,Low Stock,1.7,1977,Yes,Clear
+ORD1169,Chennai,DS-CH-03,Beverages,53,High,4.2,2.6,1.3,No,Out of Stock,6.1,334,Yes,Rainy
+ORD1170,Bangalore,DS-BL-03,Grocery,38,High,3.7,2.9,4.3,No,In Stock,9.1,1558,Yes,Foggy
+ORD1171,Kolkata,DS-KL-03,Snacks,35,High,4.2,4.3,2.4,No,Low Stock,9.6,1824,Yes,Cloudy
+ORD1172,Chennai,DS-CH-01,Fruits & Vegetables,39,High,4.0,3.9,2.7,No,In Stock,6.9,551,No,Foggy
+ORD1173,Pune,DS-PN-01,Beverages,28,Low,4.6,3.8,1.4,No,In Stock,3.8,1674,Yes,Foggy
+ORD1174,Pune,DS-PN-01,Snacks,23,Low,4.3,4.5,1.1,No,In Stock,1.8,1528,No,Foggy
+ORD1175,Kolkata,DS-KL-01,Fruits & Vegetables,41,Medium,4.5,2.8,2.1,No,In Stock,2.3,884,Yes,Rainy
+ORD1176,Kolkata,DS-KL-02,Frozen Food,22,Low,4.6,4.6,6.5,No,In Stock,2.2,227,Yes,Cloudy
+ORD1177,Kolkata,DS-KL-02,Pet Supplies,27,Medium,4.1,4.3,3.6,No,In Stock,3.7,1022,No,Foggy
+ORD1178,Ahmedabad,DS-AH-02,Snacks,47,High,5.0,3.7,2.3,No,In Stock,4.3,1018,No,Cloudy
+ORD1179,Bangalore,DS-BL-01,Household,49,High,4.5,3.7,4.2,Yes,In Stock,6.7,1191,Yes,Foggy
+ORD1180,Pune,DS-PN-03,Snacks,46,High,5.0,3.2,2.6,No,In Stock,7.2,2426,No,Clear
+ORD1181,Mumbai,DS-MH-03,Baby Care,37,Medium,4.5,3.0,3.6,No,In Stock,9.9,1836,Yes,Clear
+ORD1182,Chennai,DS-CH-02,Beverages,30,Low,4.3,4.2,1.9,No,In Stock,5.2,2249,No,Rainy
+ORD1183,Bangalore,DS-BL-03,Grocery,23,Medium,3.7,5.0,1.6,No,In Stock,5.1,1047,No,Foggy
+ORD1184,Ahmedabad,DS-AH-02,Household,16,Low,4.0,4.8,1.5,No,Low Stock,6.8,873,No,Cloudy
+ORD1185,Hyderabad,DS-HY-03,Snacks,29,Medium,3.8,3.9,1.7,No,In Stock,4.9,319,No,Foggy
+ORD1186,Hyderabad,DS-HY-02,Pet Supplies,32,Medium,4.4,4.3,3.1,No,In Stock,2.8,666,Yes,Rainy
+ORD1187,Pune,DS-PN-03,Household,31,Medium,4.1,3.6,2.4,No,In Stock,2.6,1418,No,Foggy
+ORD1188,Delhi,DS-DL-02,Personal Care,17,Low,4.1,4.3,2.6,No,In Stock,6.2,1932,No,Clear
+ORD1189,Bangalore,DS-BL-04,Baby Care,37,Medium,3.8,3.8,3.5,No,Low Stock,9.6,2184,Yes,Rainy
+ORD1190,Bangalore,DS-BL-02,Frozen Food,47,High,4.1,3.8,6.0,Yes,In Stock,7.8,1396,No,Foggy
+ORD1191,Mumbai,DS-MH-03,Dairy,38,Medium,4.7,3.2,6.0,No,In Stock,3.4,2424,Yes,Foggy
+ORD1192,Chennai,DS-CH-03,Grocery,48,High,4.6,3.5,2.0,Yes,Low Stock,3.4,556,No,Rainy
+ORD1193,Ahmedabad,DS-AH-01,Dairy,17,Low,4.4,4.8,7.3,No,Low Stock,6.1,2380,No,Foggy
+ORD1194,Pune,DS-PN-03,Baby Care,24,Low,3.9,4.9,4.9,No,In Stock,1.9,1885,No,Cloudy
+ORD1195,Mumbai,DS-MH-03,Snacks,48,High,4.7,3.6,3.7,Yes,In Stock,3.4,1896,Yes,Rainy
+ORD1196,Kolkata,DS-KL-02,Beverages,37,Medium,3.9,3.9,2.5,Yes,Out of Stock,1.0,581,Yes,Foggy
+ORD1197,Ahmedabad,DS-AH-03,Personal Care,49,High,4.2,3.0,2.1,Yes,In Stock,8.7,1607,No,Rainy
+ORD1198,Mumbai,DS-MH-01,Beverages,23,Medium,4.9,4.3,2.8,Yes,Out of Stock,10.0,740,No,Clear
+ORD1199,Pune,DS-PN-01,Fruits & Vegetables,16,Low,4.1,4.9,1.7,No,In Stock,3.7,1159,No,Cloudy
+ORD1200,Kolkata,DS-KL-03,Beverages,53,High,4.4,3.3,2.8,Yes,In Stock,2.1,1929,Yes,Rainy
+ORD1201,Bangalore,DS-BL-04,Beverages,20,Low,4.1,4.4,2.5,No,Low Stock,8.9,785,Yes,Clear
+ORD1202,Delhi,DS-DL-01,Pet Supplies,33,Medium,3.8,4.2,4.7,No,In Stock,5.0,1089,No,Cloudy
+ORD1203,Delhi,DS-DL-01,Snacks,45,High,4.0,2.7,2.1,No,In Stock,6.0,1367,No,Cloudy
+ORD1204,Mumbai,DS-MH-03,Dairy,33,Medium,3.6,4.4,7.8,No,In Stock,2.0,2246,Yes,Foggy
+ORD1205,Delhi,DS-DL-01,Personal Care,55,High,4.0,3.5,4.1,No,Out of Stock,1.2,476,Yes,Foggy
+ORD1206,Mumbai,DS-MH-03,Dairy,27,Low,4.4,4.0,5.7,No,Low Stock,1.7,2397,Yes,Foggy
+ORD1207,Bangalore,DS-BL-03,Beverages,40,Medium,4.4,3.6,3.6,No,In Stock,3.8,1991,Yes,Rainy
+ORD1208,Hyderabad,DS-HY-01,Dairy,22,Low,4.4,4.2,6.7,No,In Stock,2.6,251,No,Clear
+ORD1209,Bangalore,DS-BL-01,Snacks,24,Medium,4.1,4.8,4.5,No,Low Stock,2.1,320,No,Cloudy
+ORD1210,Chennai,DS-CH-02,Fruits & Vegetables,29,Medium,4.2,3.9,3.0,No,In Stock,4.3,1244,No,Clear
+ORD1211,Delhi,DS-DL-01,Dairy,35,High,3.6,3.9,7.7,No,In Stock,9.6,344,Yes,Clear
+ORD1212,Kolkata,DS-KL-01,Personal Care,16,Low,4.4,4.3,3.7,No,In Stock,3.0,2312,No,Cloudy
+ORD1213,Mumbai,DS-MH-04,Beverages,42,High,3.6,3.2,2.5,No,In Stock,8.1,1193,No,Cloudy
+ORD1214,Ahmedabad,DS-AH-02,Pet Supplies,44,High,3.5,3.3,3.5,No,In Stock,1.1,1572,Yes,Rainy
+ORD1215,Mumbai,DS-MH-04,Fruits & Vegetables,24,Low,5.0,4.3,2.1,No,In Stock,3.1,2328,Yes,Foggy
+ORD1216,Kolkata,DS-KL-03,Personal Care,33,Medium,4.5,3.9,3.4,No,In Stock,7.0,735,Yes,Clear
+ORD1217,Hyderabad,DS-HY-02,Fruits & Vegetables,42,High,4.2,2.9,4.8,No,In Stock,7.9,646,No,Cloudy
+ORD1218,Bangalore,DS-BL-01,Snacks,23,Medium,4.3,5.0,1.8,No,In Stock,3.4,691,No,Foggy
+ORD1219,Delhi,DS-DL-02,Fruits & Vegetables,48,High,4.6,4.0,2.6,Yes,In Stock,8.4,912,Yes,Rainy
+ORD1220,Mumbai,DS-MH-04,Household,31,Medium,4.7,3.6,1.0,No,Low Stock,9.8,735,Yes,Clear
+ORD1221,Hyderabad,DS-HY-02,Personal Care,37,Medium,3.5,2.6,4.6,No,In Stock,2.2,1558,Yes,Cloudy
+ORD1222,Delhi,DS-DL-01,Household,22,Low,3.5,4.7,1.7,No,In Stock,2.7,1346,No,Foggy
+ORD1223,Ahmedabad,DS-AH-01,Grocery,34,Medium,4.8,4.0,1.4,No,In Stock,4.8,2353,Yes,Cloudy
+ORD1224,Hyderabad,DS-HY-03,Baby Care,47,High,4.3,3.2,4.7,Yes,In Stock,2.6,1506,No,Cloudy
+ORD1225,Hyderabad,DS-HY-01,Fruits & Vegetables,24,Low,5.0,5.0,1.4,No,In Stock,3.4,429,No,Cloudy
+ORD1226,Hyderabad,DS-HY-03,Frozen Food,36,Medium,4.7,3.5,7.7,No,In Stock,7.3,782,Yes,Rainy
+ORD1227,Hyderabad,DS-HY-02,Baby Care,23,Medium,3.6,4.7,1.1,No,In Stock,4.0,1025,No,Clear
+ORD1228,Bangalore,DS-BL-03,Snacks,32,High,3.7,4.2,1.6,No,In Stock,5.7,1694,No,Clear
+ORD1229,Delhi,DS-DL-03,Frozen Food,27,Medium,3.7,3.7,7.8,No,Low Stock,9.6,1499,No,Cloudy
+ORD1230,Bangalore,DS-BL-03,Dairy,33,Medium,4.5,3.6,6.9,No,Out of Stock,4.5,332,Yes,Foggy
+ORD1231,Bangalore,DS-BL-03,Pet Supplies,21,Low,4.6,4.4,4.9,No,In Stock,9.0,563,Yes,Foggy
+ORD1232,Chennai,DS-CH-02,Grocery,24,Low,4.7,4.8,1.2,No,In Stock,4.8,881,Yes,Clear
+ORD1233,Kolkata,DS-KL-02,Frozen Food,35,Medium,4.2,4.4,6.6,No,In Stock,2.5,501,No,Clear
+ORD1234,Mumbai,DS-MH-03,Grocery,30,Medium,4.8,3.7,1.3,No,Out of Stock,4.0,2177,Yes,Clear
+ORD1235,Mumbai,DS-MH-04,Snacks,25,Medium,4.0,5.0,2.6,No,In Stock,9.3,2412,No,Rainy
+ORD1236,Pune,DS-PN-03,Fruits & Vegetables,27,Low,4.3,4.0,1.2,No,In Stock,1.8,2167,Yes,Clear
+ORD1237,Hyderabad,DS-HY-01,Grocery,22,Low,4.8,4.4,2.6,No,In Stock,6.9,573,No,Clear
+ORD1238,Kolkata,DS-KL-01,Personal Care,49,High,3.9,3.2,1.9,Yes,In Stock,7.8,596,No,Rainy
+ORD1239,Delhi,DS-DL-03,Baby Care,40,Medium,4.7,3.1,3.1,No,Low Stock,5.3,1165,Yes,Clear
+ORD1240,Ahmedabad,DS-AH-02,Beverages,37,Medium,3.8,4.0,4.9,No,Low Stock,2.1,1934,Yes,Rainy
+ORD1241,Delhi,DS-DL-04,Dairy,49,High,4.9,2.6,5.6,Yes,In Stock,3.5,2076,Yes,Cloudy
+ORD1242,Mumbai,DS-MH-04,Beverages,29,Medium,4.7,4.3,4.5,No,Low Stock,8.9,1281,Yes,Clear
+ORD1243,Kolkata,DS-KL-03,Household,24,Medium,3.9,4.3,3.4,No,In Stock,1.3,1557,No,Clear
+ORD1244,Hyderabad,DS-HY-01,Household,42,High,4.7,3.0,2.1,No,In Stock,7.3,602,No,Clear
+ORD1245,Hyderabad,DS-HY-01,Fruits & Vegetables,40,High,4.6,3.4,1.4,No,In Stock,9.2,1867,No,Cloudy
+ORD1246,Ahmedabad,DS-AH-03,Personal Care,48,High,4.3,2.7,4.4,Yes,Low Stock,2.7,1022,Yes,Clear
+ORD1247,Mumbai,DS-MH-02,Grocery,31,Medium,4.7,4.0,3.5,No,In Stock,1.3,1725,No,Rainy
+ORD1248,Ahmedabad,DS-AH-03,Household,20,Low,3.7,4.9,4.0,No,In Stock,3.6,1783,No,Cloudy
+ORD1249,Mumbai,DS-MH-02,Pet Supplies,50,High,3.9,3.1,1.1,No,Low Stock,1.1,741,Yes,Rainy
+ORD1250,Bangalore,DS-BL-01,Dairy,21,Low,4.8,4.9,5.8,No,In Stock,3.7,2332,No,Cloudy
+ORD1251,Kolkata,DS-KL-03,Beverages,19,Low,4.5,4.6,2.3,No,In Stock,3.9,1334,No,Cloudy
+ORD1252,Pune,DS-PN-03,Fruits & Vegetables,29,Low,4.5,4.2,3.9,No,In Stock,10.0,1262,Yes,Clear
+ORD1253,Kolkata,DS-KL-02,Frozen Food,46,High,4.3,3.7,7.6,Yes,In Stock,8.6,2486,Yes,Cloudy
+ORD1254,Bangalore,DS-BL-03,Beverages,37,Medium,4.5,2.8,1.9,No,Low Stock,4.8,1557,No,Rainy
+ORD1255,Chennai,DS-CH-02,Pet Supplies,23,Low,4.5,4.7,3.5,No,In Stock,2.8,690,Yes,Foggy
+ORD1256,Kolkata,DS-KL-03,Fruits & Vegetables,35,Medium,5.0,4.4,4.9,No,In Stock,8.8,938,Yes,Rainy
+ORD1257,Delhi,DS-DL-04,Personal Care,34,Medium,3.5,3.8,4.0,No,In Stock,7.9,2205,Yes,Cloudy
+ORD1258,Delhi,DS-DL-02,Pet Supplies,28,Medium,4.9,3.9,1.2,No,In Stock,4.4,257,No,Foggy
+ORD1259,Chennai,DS-CH-03,Dairy,30,Low,4.0,3.6,6.0,No,In Stock,1.6,387,Yes,Rainy
+ORD1260,Pune,DS-PN-02,Household,36,High,4.0,3.9,2.4,No,In Stock,9.5,1852,No,Foggy
+ORD1261,Mumbai,DS-MH-02,Dairy,45,High,3.8,3.0,6.6,No,In Stock,8.9,1247,Yes,Rainy
+ORD1262,Mumbai,DS-MH-01,Beverages,35,Medium,4.1,3.9,3.2,No,In Stock,2.4,238,Yes,Clear
+ORD1263,Pune,DS-PN-02,Beverages,31,Medium,4.3,4.1,2.1,No,Low Stock,5.5,1018,No,Rainy
+ORD1264,Pune,DS-PN-03,Dairy,24,Medium,3.6,4.6,4.8,Yes,Out of Stock,1.0,564,No,Cloudy
+ORD1265,Delhi,DS-DL-04,Snacks,47,High,3.8,4.0,2.2,Yes,In Stock,2.6,361,Yes,Clear
+ORD1266,Pune,DS-PN-02,Personal Care,43,Medium,4.8,2.5,1.6,No,In Stock,4.0,1992,Yes,Clear
+ORD1267,Pune,DS-PN-03,Beverages,29,Medium,4.1,4.0,4.3,No,In Stock,5.3,1927,No,Rainy
+ORD1268,Bangalore,DS-BL-01,Snacks,35,Medium,4.2,4.1,2.8,No,In Stock,8.0,318,Yes,Rainy
+ORD1269,Bangalore,DS-BL-04,Household,15,Low,3.6,4.7,1.0,No,Low Stock,5.7,1117,No,Foggy
+ORD1270,Chennai,DS-CH-03,Baby Care,39,Medium,3.9,3.0,3.7,No,In Stock,8.6,2486,Yes,Foggy
+ORD1271,Mumbai,DS-MH-01,Snacks,35,Medium,3.7,4.3,2.3,No,In Stock,3.5,2276,No,Foggy
+ORD1272,Hyderabad,DS-HY-03,Frozen Food,34,Medium,4.7,3.9,7.4,No,In Stock,2.1,2237,Yes,Clear
+ORD1273,Mumbai,DS-MH-01,Frozen Food,40,Medium,4.9,3.5,7.6,No,In Stock,6.9,2068,Yes,Clear
+ORD1274,Chennai,DS-CH-02,Grocery,49,High,4.7,3.4,3.9,Yes,In Stock,1.9,1108,No,Cloudy
+ORD1275,Mumbai,DS-MH-03,Personal Care,35,High,3.6,3.7,1.6,No,Low Stock,7.5,638,No,Cloudy
+ORD1276,Pune,DS-PN-03,Dairy,26,Low,4.6,3.6,5.7,No,Out of Stock,6.3,2045,No,Rainy
+ORD1277,Ahmedabad,DS-AH-03,Pet Supplies,38,High,4.6,3.3,2.7,No,In Stock,9.3,925,Yes,Foggy
+ORD1278,Bangalore,DS-BL-02,Beverages,28,Medium,5.0,4.4,4.0,No,In Stock,9.7,1404,No,Foggy
+ORD1279,Ahmedabad,DS-AH-01,Snacks,33,Medium,4.6,4.1,1.9,No,In Stock,7.4,1614,No,Cloudy
+ORD1280,Bangalore,DS-BL-02,Baby Care,34,Medium,4.0,4.0,3.3,No,In Stock,4.8,2386,No,Clear
+ORD1281,Pune,DS-PN-02,Grocery,26,Medium,4.5,3.7,4.0,No,In Stock,3.6,1226,Yes,Foggy
+ORD1282,Bangalore,DS-BL-01,Fruits & Vegetables,24,Low,4.4,4.7,3.2,No,In Stock,6.8,1792,Yes,Cloudy
+ORD1283,Hyderabad,DS-HY-03,Fruits & Vegetables,33,Medium,4.9,4.5,2.3,No,In Stock,1.1,1229,Yes,Foggy
+ORD1284,Hyderabad,DS-HY-03,Household,43,High,4.2,4.0,1.3,No,Out of Stock,2.1,366,No,Rainy
+ORD1285,Kolkata,DS-KL-02,Baby Care,19,Low,4.2,4.9,1.2,Yes,Out of Stock,8.0,1433,Yes,Cloudy
+ORD1286,Ahmedabad,DS-AH-03,Baby Care,31,Medium,3.6,4.0,2.7,No,In Stock,1.8,1106,No,Rainy
+ORD1287,Hyderabad,DS-HY-03,Personal Care,41,Medium,4.3,4.0,4.3,Yes,Out of Stock,7.0,2025,No,Rainy
+ORD1288,Hyderabad,DS-HY-03,Pet Supplies,47,High,4.9,3.9,2.5,Yes,In Stock,9.2,1735,Yes,Clear
+ORD1289,Ahmedabad,DS-AH-02,Grocery,25,Low,4.9,4.3,4.8,No,In Stock,1.1,468,Yes,Cloudy
+ORD1290,Hyderabad,DS-HY-03,Dairy,38,High,4.3,3.6,7.9,No,Low Stock,6.8,495,No,Clear
+ORD1291,Bangalore,DS-BL-01,Household,36,High,3.8,2.9,1.3,No,Low Stock,9.2,1869,Yes,Clear
+ORD1292,Kolkata,DS-KL-02,Frozen Food,34,Medium,4.3,4.1,6.5,No,Low Stock,6.3,497,Yes,Foggy
+ORD1293,Chennai,DS-CH-03,Beverages,19,Low,4.6,4.6,2.6,No,In Stock,5.3,2385,No,Clear
+ORD1294,Hyderabad,DS-HY-01,Frozen Food,46,High,4.9,2.5,7.5,Yes,In Stock,6.2,1814,No,Rainy
+ORD1295,Delhi,DS-DL-03,Dairy,52,High,3.7,2.8,6.5,Yes,In Stock,7.0,422,No,Rainy
+ORD1296,Ahmedabad,DS-AH-03,Baby Care,19,Low,4.6,4.6,2.3,No,In Stock,6.9,609,Yes,Cloudy
+ORD1297,Pune,DS-PN-03,Beverages,46,High,4.0,3.5,3.8,Yes,In Stock,8.3,1954,No,Foggy
+ORD1298,Bangalore,DS-BL-01,Personal Care,27,Low,4.0,4.2,2.3,No,In Stock,5.0,1451,Yes,Foggy
+ORD1299,Ahmedabad,DS-AH-03,Beverages,23,Low,3.8,4.8,3.5,No,Low Stock,9.0,2277,Yes,Cloudy
+ORD1300,Mumbai,DS-MH-04,Pet Supplies,29,Low,4.2,4.3,2.5,No,In Stock,7.9,1391,Yes,Cloudy
+ORD1301,Bangalore,DS-BL-04,Baby Care,30,Medium,3.5,3.7,4.9,Yes,Out of Stock,7.8,774,No,Cloudy
+ORD1302,Ahmedabad,DS-AH-01,Snacks,29,Medium,3.8,4.0,1.3,No,In Stock,1.4,1046,Yes,Foggy
+ORD1303,Chennai,DS-CH-02,Household,44,High,4.6,3.3,4.3,No,Low Stock,3.4,2429,Yes,Clear
+ORD1304,Bangalore,DS-BL-04,Frozen Food,31,Medium,4.3,3.9,7.5,No,In Stock,5.3,227,Yes,Cloudy
+ORD1305,Bangalore,DS-BL-04,Snacks,21,Low,3.7,4.7,4.3,No,In Stock,4.7,1552,No,Rainy
+ORD1306,Delhi,DS-DL-04,Household,25,Medium,3.6,4.7,1.6,No,In Stock,1.4,801,Yes,Foggy
+ORD1307,Mumbai,DS-MH-02,Fruits & Vegetables,41,High,4.9,2.8,3.4,No,In Stock,5.3,1098,No,Clear
+ORD1308,Kolkata,DS-KL-03,Snacks,44,High,4.5,3.9,3.4,No,In Stock,4.4,741,Yes,Cloudy
+ORD1309,Delhi,DS-DL-01,Dairy,34,Medium,3.8,4.4,6.4,No,Low Stock,5.8,681,No,Rainy
+ORD1310,Delhi,DS-DL-04,Snacks,53,High,4.1,2.6,3.1,No,In Stock,8.1,1761,Yes,Foggy
+ORD1311,Chennai,DS-CH-03,Pet Supplies,30,Low,3.8,4.4,2.1,No,Low Stock,4.7,974,Yes,Cloudy
+ORD1312,Mumbai,DS-MH-01,Pet Supplies,35,Medium,4.5,3.8,2.4,No,In Stock,6.9,1238,Yes,Foggy
+ORD1313,Pune,DS-PN-03,Frozen Food,34,Medium,3.8,4.1,6.2,No,In Stock,6.0,2181,No,Foggy
+ORD1314,Pune,DS-PN-02,Pet Supplies,38,Medium,4.6,3.2,3.8,No,In Stock,2.9,1840,No,Rainy
+ORD1315,Chennai,DS-CH-03,Pet Supplies,38,Medium,4.7,3.7,2.9,No,In Stock,1.8,1277,Yes,Rainy
+ORD1316,Hyderabad,DS-HY-02,Beverages,31,Medium,4.5,3.8,4.9,No,In Stock,8.0,917,No,Foggy
+ORD1317,Ahmedabad,DS-AH-02,Grocery,22,Low,4.3,4.8,3.5,No,In Stock,4.2,201,No,Rainy
+ORD1318,Bangalore,DS-BL-01,Fruits & Vegetables,44,High,4.4,3.3,3.9,No,In Stock,1.8,1365,No,Foggy
+ORD1319,Chennai,DS-CH-02,Fruits & Vegetables,27,Low,3.5,3.7,3.0,No,In Stock,5.5,1592,Yes,Foggy
+ORD1320,Delhi,DS-DL-03,Baby Care,44,High,4.3,3.7,4.0,Yes,Out of Stock,5.1,312,No,Foggy
+ORD1321,Ahmedabad,DS-AH-01,Fruits & Vegetables,30,Low,4.3,3.5,4.3,No,In Stock,1.8,1600,Yes,Rainy
+ORD1322,Delhi,DS-DL-02,Household,31,Medium,4.5,4.4,3.0,No,In Stock,7.6,1287,Yes,Cloudy
+ORD1323,Hyderabad,DS-HY-01,Dairy,38,High,4.9,3.5,6.7,No,In Stock,7.9,2417,No,Rainy
+ORD1324,Mumbai,DS-MH-04,Personal Care,29,Medium,3.8,4.3,3.0,No,In Stock,7.8,725,No,Cloudy
+ORD1325,Mumbai,DS-MH-04,Household,52,High,4.5,2.8,4.9,Yes,In Stock,7.2,248,Yes,Cloudy
+ORD1326,Hyderabad,DS-HY-02,Pet Supplies,17,Low,4.3,4.4,2.9,No,In Stock,4.3,2242,No,Cloudy
+ORD1327,Kolkata,DS-KL-01,Frozen Food,44,High,3.9,2.8,4.5,No,In Stock,3.1,609,No,Cloudy
+ORD1328,Pune,DS-PN-01,Baby Care,28,Medium,4.2,3.5,2.7,No,In Stock,9.0,2317,No,Rainy
+ORD1329,Chennai,DS-CH-02,Fruits & Vegetables,23,Low,3.7,4.4,2.0,No,Low Stock,1.9,1570,Yes,Foggy
+ORD1330,Pune,DS-PN-02,Personal Care,22,Medium,4.1,4.5,3.7,No,In Stock,6.2,2405,No,Cloudy
+ORD1331,Bangalore,DS-BL-03,Personal Care,23,Medium,4.1,4.4,3.5,No,In Stock,2.5,1581,No,Foggy
+ORD1332,Kolkata,DS-KL-03,Pet Supplies,28,Medium,3.8,3.8,2.2,No,In Stock,6.8,1311,Yes,Clear
+ORD1333,Ahmedabad,DS-AH-02,Pet Supplies,24,Medium,3.8,4.2,3.9,No,In Stock,9.5,527,No,Foggy
+ORD1334,Hyderabad,DS-HY-01,Frozen Food,25,Low,3.5,4.5,7.1,No,In Stock,3.4,836,Yes,Foggy
+ORD1335,Delhi,DS-DL-04,Fruits & Vegetables,25,Low,3.7,4.6,1.7,No,In Stock,4.2,1532,No,Foggy
+ORD1336,Ahmedabad,DS-AH-02,Baby Care,53,High,4.4,3.2,4.0,Yes,Low Stock,6.8,2386,No,Rainy
+ORD1337,Pune,DS-PN-02,Household,30,Medium,4.1,3.7,1.0,No,In Stock,7.8,758,Yes,Foggy
+ORD1338,Chennai,DS-CH-02,Household,26,Medium,3.5,3.9,2.2,No,In Stock,1.1,1730,No,Foggy
+ORD1339,Hyderabad,DS-HY-02,Baby Care,46,Medium,4.7,2.8,1.3,Yes,In Stock,8.2,1313,Yes,Rainy
+ORD1340,Pune,DS-PN-03,Baby Care,38,High,3.7,2.7,2.8,No,In Stock,7.3,2215,No,Rainy
+ORD1341,Hyderabad,DS-HY-02,Grocery,25,Low,3.7,4.6,1.0,No,In Stock,1.1,1089,Yes,Rainy
+ORD1342,Chennai,DS-CH-02,Fruits & Vegetables,46,High,4.5,2.5,1.3,Yes,Low Stock,3.4,1807,No,Cloudy
+ORD1343,Delhi,DS-DL-04,Snacks,15,Low,3.7,4.8,2.0,No,Low Stock,5.0,337,No,Foggy
+ORD1344,Hyderabad,DS-HY-02,Beverages,35,Medium,4.9,4.4,1.6,No,Low Stock,7.7,2451,Yes,Foggy
+ORD1345,Delhi,DS-DL-03,Household,30,Medium,4.5,4.5,1.9,No,In Stock,1.1,1330,Yes,Cloudy
+ORD1346,Delhi,DS-DL-04,Dairy,27,Low,4.1,3.6,4.6,No,In Stock,6.6,445,Yes,Foggy
+ORD1347,Mumbai,DS-MH-03,Snacks,55,High,5.0,3.7,4.0,Yes,Low Stock,2.7,1747,Yes,Rainy
+ORD1348,Chennai,DS-CH-03,Snacks,28,Low,3.9,4.2,1.8,No,In Stock,4.1,2118,Yes,Foggy
+ORD1349,Pune,DS-PN-03,Baby Care,27,Low,3.9,3.9,1.0,No,In Stock,4.4,959,Yes,Foggy
+ORD1350,Mumbai,DS-MH-03,Pet Supplies,24,Low,4.5,4.8,1.6,No,In Stock,4.7,1519,Yes,Foggy
+ORD1351,Delhi,DS-DL-01,Baby Care,35,Medium,3.8,4.0,1.4,No,In Stock,8.5,2206,Yes,Rainy
+ORD1352,Pune,DS-PN-01,Personal Care,25,Low,4.2,4.9,1.3,No,Low Stock,1.5,2485,Yes,Clear
+ORD1353,Kolkata,DS-KL-02,Grocery,34,High,4.8,3.6,1.9,No,In Stock,1.9,1146,No,Clear
+ORD1354,Kolkata,DS-KL-01,Dairy,44,Medium,4.1,2.7,6.6,No,In Stock,5.1,1949,Yes,Rainy
+ORD1355,Delhi,DS-DL-02,Snacks,37,Medium,4.2,3.0,2.3,Yes,Out of Stock,4.3,1963,No,Rainy
+ORD1356,Chennai,DS-CH-03,Dairy,40,Medium,4.9,2.9,7.8,No,In Stock,4.6,341,Yes,Foggy
+ORD1357,Pune,DS-PN-03,Grocery,26,Medium,5.0,3.7,2.3,No,Low Stock,9.5,1330,No,Clear
+ORD1358,Bangalore,DS-BL-01,Grocery,37,Medium,3.9,2.9,2.2,No,In Stock,6.1,1090,Yes,Rainy
+ORD1359,Delhi,DS-DL-03,Household,22,Low,4.7,4.5,4.1,Yes,Out of Stock,8.9,1978,Yes,Cloudy
+ORD1360,Kolkata,DS-KL-01,Dairy,37,High,4.3,3.0,6.3,No,In Stock,7.3,827,Yes,Foggy
+ORD1361,Mumbai,DS-MH-04,Household,55,High,3.7,3.0,2.9,Yes,Low Stock,3.4,1832,Yes,Rainy
+ORD1362,Kolkata,DS-KL-03,Snacks,53,High,4.5,2.8,3.5,Yes,Low Stock,1.6,1961,No,Rainy
+ORD1363,Chennai,DS-CH-03,Pet Supplies,20,Low,4.0,4.5,3.4,No,In Stock,3.7,1632,No,Foggy
+ORD1364,Ahmedabad,DS-AH-03,Snacks,40,Medium,4.6,3.8,1.4,No,In Stock,9.5,804,Yes,Rainy
+ORD1365,Pune,DS-PN-01,Personal Care,34,Medium,3.5,3.7,3.2,No,In Stock,5.7,1259,Yes,Cloudy
+ORD1366,Ahmedabad,DS-AH-03,Snacks,38,Medium,4.3,2.9,1.2,No,In Stock,7.3,1311,Yes,Foggy
+ORD1367,Mumbai,DS-MH-04,Grocery,16,Low,3.5,4.9,3.6,No,In Stock,4.4,607,No,Cloudy
+ORD1368,Chennai,DS-CH-02,Pet Supplies,42,Medium,4.9,2.5,2.0,No,In Stock,4.0,1811,Yes,Rainy
+ORD1369,Bangalore,DS-BL-01,Personal Care,25,Medium,5.0,5.0,2.1,No,In Stock,3.3,1785,No,Cloudy
+ORD1370,Mumbai,DS-MH-03,Dairy,22,Low,4.3,4.7,7.5,No,In Stock,4.8,825,No,Rainy
+ORD1371,Kolkata,DS-KL-02,Pet Supplies,42,Medium,4.3,3.7,4.5,No,In Stock,7.3,2345,Yes,Rainy
+ORD1372,Bangalore,DS-BL-04,Snacks,29,Medium,4.3,4.2,1.7,No,Low Stock,2.3,320,Yes,Cloudy
+ORD1373,Chennai,DS-CH-02,Frozen Food,38,Medium,3.7,2.8,7.0,No,In Stock,3.4,1145,No,Rainy
+ORD1374,Hyderabad,DS-HY-01,Grocery,37,Medium,4.2,3.5,1.7,No,In Stock,5.3,870,No,Rainy
+ORD1375,Hyderabad,DS-HY-01,Grocery,31,Medium,4.6,4.5,4.0,No,In Stock,9.3,1999,Yes,Cloudy
+ORD1376,Ahmedabad,DS-AH-03,Personal Care,52,High,3.6,3.6,2.5,Yes,In Stock,7.7,2396,Yes,Foggy
+ORD1377,Mumbai,DS-MH-01,Household,42,Medium,5.0,2.6,2.5,No,Low Stock,9.7,977,Yes,Rainy
+ORD1378,Pune,DS-PN-02,Frozen Food,37,High,4.1,3.4,4.2,No,In Stock,2.3,2050,No,Foggy
+ORD1379,Delhi,DS-DL-01,Snacks,49,High,4.2,2.8,3.4,Yes,Low Stock,5.1,1224,Yes,Foggy
+ORD1380,Chennai,DS-CH-03,Snacks,42,High,4.2,3.0,3.1,No,In Stock,8.1,2295,Yes,Clear
+ORD1381,Bangalore,DS-BL-04,Baby Care,39,Medium,4.5,2.7,4.5,No,In Stock,7.4,1918,Yes,Cloudy
+ORD1382,Pune,DS-PN-02,Household,20,Low,3.5,4.8,1.0,No,In Stock,5.5,223,Yes,Clear
+ORD1383,Ahmedabad,DS-AH-01,Dairy,28,Medium,4.2,4.1,4.0,No,Low Stock,3.5,2483,No,Foggy
+ORD1384,Hyderabad,DS-HY-01,Snacks,17,Low,4.8,4.7,4.4,No,In Stock,9.3,400,No,Clear
+ORD1385,Delhi,DS-DL-04,Snacks,29,Low,4.0,3.5,4.1,No,In Stock,9.1,477,No,Rainy
+ORD1386,Kolkata,DS-KL-03,Beverages,23,Low,4.3,4.6,3.8,No,In Stock,2.0,2366,Yes,Clear
+ORD1387,Delhi,DS-DL-04,Pet Supplies,42,High,3.9,3.4,3.5,Yes,Out of Stock,5.5,2238,No,Foggy
+ORD1388,Ahmedabad,DS-AH-01,Pet Supplies,18,Low,3.5,4.7,1.5,No,Low Stock,8.2,1898,No,Rainy
+ORD1389,Kolkata,DS-KL-01,Personal Care,35,Medium,4.5,3.8,1.3,No,In Stock,5.9,225,Yes,Clear
+ORD1390,Delhi,DS-DL-03,Personal Care,34,Medium,4.9,4.0,2.9,No,In Stock,2.2,836,Yes,Rainy
+ORD1391,Ahmedabad,DS-AH-03,Personal Care,35,Medium,4.3,4.1,3.7,No,In Stock,1.2,1558,No,Clear
+ORD1392,Chennai,DS-CH-01,Snacks,28,Low,4.3,3.7,3.4,No,In Stock,2.1,1462,Yes,Cloudy
+ORD1393,Chennai,DS-CH-03,Grocery,22,Low,4.2,5.0,1.9,No,In Stock,2.0,353,Yes,Foggy
+ORD1394,Hyderabad,DS-HY-01,Household,30,Medium,4.9,4.2,3.1,No,Low Stock,2.3,602,No,Rainy
+ORD1395,Bangalore,DS-BL-02,Grocery,28,Medium,4.5,4.1,1.3,No,In Stock,1.4,2332,Yes,Clear
+ORD1396,Pune,DS-PN-01,Pet Supplies,41,High,3.9,3.3,4.1,No,In Stock,3.5,845,Yes,Cloudy
+ORD1397,Pune,DS-PN-01,Grocery,60,High,4.0,2.7,3.8,Yes,In Stock,1.6,1587,Yes,Rainy
+ORD1398,Ahmedabad,DS-AH-01,Snacks,23,Low,3.6,4.5,3.8,No,Low Stock,6.7,2026,Yes,Clear
+ORD1399,Chennai,DS-CH-02,Personal Care,53,High,3.6,3.7,3.8,Yes,In Stock,6.8,2106,Yes,Foggy
+ORD1400,Ahmedabad,DS-AH-01,Dairy,21,Low,3.8,4.9,5.3,No,Low Stock,3.9,2196,No,Cloudy
+ORD1401,Mumbai,DS-MH-01,Household,17,Low,3.9,4.5,3.3,No,In Stock,4.7,638,No,Foggy
+ORD1402,Chennai,DS-CH-03,Beverages,50,High,4.1,3.4,3.2,Yes,Out of Stock,4.1,1965,No,Foggy
+ORD1403,Kolkata,DS-KL-03,Personal Care,42,Medium,4.6,3.6,4.3,No,In Stock,6.4,1532,Yes,Rainy
+ORD1404,Delhi,DS-DL-04,Snacks,31,Medium,3.7,4.3,4.1,No,In Stock,5.4,451,No,Clear
+ORD1405,Delhi,DS-DL-02,Snacks,48,High,3.9,3.4,2.8,No,In Stock,3.7,1447,Yes,Rainy
+ORD1406,Kolkata,DS-KL-03,Personal Care,44,High,3.9,3.1,3.2,No,In Stock,7.3,1671,Yes,Foggy
+ORD1407,Delhi,DS-DL-03,Grocery,21,Low,4.1,4.5,1.8,No,In Stock,2.3,2475,No,Cloudy
+ORD1408,Kolkata,DS-KL-02,Frozen Food,20,Low,3.7,4.9,6.6,Yes,Out of Stock,2.2,1903,Yes,Rainy
+ORD1409,Ahmedabad,DS-AH-03,Pet Supplies,53,High,4.3,3.2,2.4,Yes,In Stock,6.2,1169,Yes,Foggy
+ORD1410,Pune,DS-PN-02,Baby Care,36,Medium,4.6,2.7,2.9,No,In Stock,2.3,2356,Yes,Clear
+ORD1411,Pune,DS-PN-02,Baby Care,32,Low,4.5,4.0,3.3,No,In Stock,9.1,2391,Yes,Rainy
+ORD1412,Mumbai,DS-MH-04,Household,28,Medium,4.0,4.5,2.2,No,In Stock,7.3,1445,No,Cloudy
+ORD1413,Pune,DS-PN-01,Household,41,Medium,4.4,2.9,1.3,No,In Stock,8.7,1338,Yes,Cloudy
+ORD1414,Pune,DS-PN-01,Pet Supplies,16,Low,4.4,4.9,4.0,No,In Stock,4.3,918,No,Clear
+ORD1415,Pune,DS-PN-03,Dairy,26,Medium,4.4,4.3,7.4,No,Low Stock,4.7,1769,Yes,Cloudy
+ORD1416,Hyderabad,DS-HY-03,Household,60,High,3.6,2.9,4.3,Yes,In Stock,5.3,2150,Yes,Rainy
+ORD1417,Hyderabad,DS-HY-02,Frozen Food,26,Medium,4.9,3.9,6.7,Yes,Out of Stock,1.4,2376,Yes,Foggy
+ORD1418,Chennai,DS-CH-02,Pet Supplies,40,High,3.9,2.6,3.6,No,In Stock,8.0,1190,No,Cloudy
+ORD1419,Hyderabad,DS-HY-03,Personal Care,32,Medium,4.5,4.3,1.0,No,In Stock,1.9,2026,Yes,Cloudy
+ORD1420,Chennai,DS-CH-01,Fruits & Vegetables,26,Low,3.6,4.1,4.6,No,In Stock,6.4,698,Yes,Clear
+ORD1421,Delhi,DS-DL-01,Pet Supplies,21,Low,3.9,4.7,1.3,No,In Stock,10.0,1948,Yes,Clear
+ORD1422,Chennai,DS-CH-02,Snacks,44,High,4.1,4.0,2.0,No,Low Stock,2.6,484,No,Clear
+ORD1423,Ahmedabad,DS-AH-01,Pet Supplies,24,Medium,4.3,4.5,3.5,No,In Stock,5.0,1260,No,Clear
+ORD1424,Delhi,DS-DL-01,Beverages,15,Low,4.8,4.3,3.6,Yes,Out of Stock,3.4,1550,No,Foggy
+ORD1425,Kolkata,DS-KL-03,Grocery,28,Medium,4.1,4.2,4.2,No,In Stock,3.0,1774,No,Foggy
+ORD1426,Ahmedabad,DS-AH-01,Pet Supplies,32,Medium,4.0,3.6,5.0,No,In Stock,4.3,1592,No,Cloudy
+ORD1427,Delhi,DS-DL-04,Fruits & Vegetables,35,Medium,3.8,4.2,4.6,No,In Stock,4.2,547,Yes,Clear
+ORD1428,Ahmedabad,DS-AH-03,Dairy,27,Low,4.2,3.6,6.2,No,In Stock,5.8,2040,Yes,Clear
+ORD1429,Mumbai,DS-MH-01,Personal Care,19,Low,4.7,4.7,2.8,No,In Stock,8.9,810,Yes,Foggy
+ORD1430,Hyderabad,DS-HY-01,Grocery,47,High,4.9,3.4,2.0,Yes,In Stock,6.7,1458,No,Clear
+ORD1431,Delhi,DS-DL-04,Pet Supplies,21,Low,4.4,4.7,1.3,No,In Stock,4.0,1846,Yes,Clear
+ORD1432,Chennai,DS-CH-01,Pet Supplies,37,Medium,4.4,3.0,1.5,No,In Stock,4.7,1715,No,Rainy
+ORD1433,Bangalore,DS-BL-04,Dairy,50,High,4.1,2.7,7.5,Yes,In Stock,9.3,1362,Yes,Rainy
+ORD1434,Kolkata,DS-KL-03,Household,43,Medium,4.2,2.9,1.7,No,In Stock,6.4,2247,Yes,Rainy
+ORD1435,Delhi,DS-DL-03,Personal Care,32,Medium,4.4,4.4,4.9,No,In Stock,5.2,1052,Yes,Rainy
+ORD1436,Pune,DS-PN-01,Dairy,25,Low,3.7,4.9,4.2,No,In Stock,2.9,1229,Yes,Foggy
+ORD1437,Chennai,DS-CH-03,Household,28,Low,4.2,3.6,4.6,No,Low Stock,6.3,1535,Yes,Rainy
+ORD1438,Kolkata,DS-KL-01,Personal Care,20,Low,3.9,4.5,1.8,No,Low Stock,1.7,2184,Yes,Cloudy
+ORD1439,Mumbai,DS-MH-04,Snacks,26,Low,3.7,4.2,3.5,Yes,Out of Stock,2.1,444,No,Rainy
+ORD1440,Pune,DS-PN-01,Beverages,37,High,4.6,2.8,2.2,No,In Stock,8.2,896,No,Foggy
+ORD1441,Hyderabad,DS-HY-01,Frozen Food,56,High,4.8,2.9,6.9,Yes,Low Stock,3.9,1110,No,Rainy
+ORD1442,Bangalore,DS-BL-01,Frozen Food,50,High,4.1,3.1,7.2,Yes,In Stock,5.5,540,Yes,Foggy
+ORD1443,Mumbai,DS-MH-04,Dairy,28,Low,3.5,4.2,4.6,No,In Stock,6.1,299,No,Rainy
+ORD1444,Ahmedabad,DS-AH-02,Snacks,49,High,4.6,2.5,3.5,Yes,In Stock,5.8,1414,No,Rainy
+ORD1445,Kolkata,DS-KL-02,Pet Supplies,35,Medium,4.6,3.6,4.8,No,In Stock,9.0,654,Yes,Clear
+ORD1446,Kolkata,DS-KL-02,Household,24,Medium,4.5,4.8,3.2,No,Low Stock,2.2,1571,No,Cloudy
+ORD1447,Hyderabad,DS-HY-03,Beverages,36,Medium,4.3,3.1,1.2,No,In Stock,5.1,2253,Yes,Rainy
+ORD1448,Delhi,DS-DL-04,Baby Care,31,Medium,4.1,4.2,3.8,No,Out of Stock,2.7,2075,No,Foggy
+ORD1449,Delhi,DS-DL-01,Frozen Food,35,High,3.7,3.6,4.6,No,In Stock,2.8,292,No,Clear
+ORD1450,Pune,DS-PN-02,Baby Care,45,High,4.2,3.5,2.2,No,In Stock,8.8,1151,No,Cloudy
+ORD1451,Chennai,DS-CH-02,Pet Supplies,31,Medium,4.5,4.0,3.2,No,In Stock,6.1,1455,No,Foggy
+ORD1452,Bangalore,DS-BL-03,Dairy,24,Medium,4.0,4.6,4.7,No,Out of Stock,3.6,918,No,Clear
+ORD1453,Bangalore,DS-BL-02,Dairy,27,Low,4.1,3.7,6.8,No,In Stock,9.8,805,No,Rainy
+ORD1454,Chennai,DS-CH-02,Baby Care,32,High,4.1,4.0,1.6,No,In Stock,3.9,217,No,Clear
+ORD1455,Chennai,DS-CH-03,Fruits & Vegetables,41,Medium,4.6,3.9,2.4,No,In Stock,5.3,364,No,Rainy
+ORD1456,Bangalore,DS-BL-01,Fruits & Vegetables,22,Low,4.0,4.7,1.8,No,In Stock,8.0,1338,Yes,Foggy
+ORD1457,Hyderabad,DS-HY-01,Beverages,30,Medium,4.1,4.0,3.4,No,In Stock,1.5,1678,No,Clear
+ORD1458,Kolkata,DS-KL-01,Frozen Food,26,Medium,4.0,3.8,5.8,No,In Stock,2.9,2019,No,Clear
+ORD1459,Kolkata,DS-KL-02,Fruits & Vegetables,17,Low,4.8,4.7,1.6,No,In Stock,9.9,2351,No,Foggy
+ORD1460,Chennai,DS-CH-01,Pet Supplies,52,High,4.9,3.1,3.2,No,Low Stock,2.2,961,Yes,Clear
+ORD1461,Kolkata,DS-KL-02,Baby Care,29,Medium,4.3,4.0,1.1,No,In Stock,3.4,2135,No,Cloudy
+ORD1462,Delhi,DS-DL-03,Frozen Food,24,Low,3.9,5.0,4.3,No,Low Stock,6.2,1986,Yes,Clear
+ORD1463,Pune,DS-PN-03,Household,55,High,4.4,3.8,1.7,Yes,In Stock,8.9,754,Yes,Cloudy
+ORD1464,Chennai,DS-CH-01,Grocery,15,Low,3.9,4.6,4.7,No,In Stock,7.9,950,No,Cloudy
+ORD1465,Delhi,DS-DL-02,Baby Care,26,Medium,4.5,4.2,1.4,No,In Stock,8.4,252,No,Cloudy
+ORD1466,Bangalore,DS-BL-03,Personal Care,37,High,3.7,2.7,1.9,No,In Stock,9.1,2353,No,Cloudy
+ORD1467,Delhi,DS-DL-04,Household,42,High,4.0,3.0,4.3,No,Low Stock,6.4,1601,Yes,Rainy
+ORD1468,Bangalore,DS-BL-03,Grocery,48,High,4.5,3.0,1.8,Yes,Out of Stock,7.9,657,Yes,Rainy
+ORD1469,Delhi,DS-DL-01,Household,44,High,4.4,3.2,4.6,No,In Stock,3.7,242,Yes,Rainy
+ORD1470,Delhi,DS-DL-01,Pet Supplies,32,Low,3.6,4.3,4.8,Yes,Out of Stock,2.4,2250,Yes,Rainy
+ORD1471,Hyderabad,DS-HY-03,Pet Supplies,26,Low,4.9,4.0,4.9,No,In Stock,2.9,2265,Yes,Rainy
+ORD1472,Ahmedabad,DS-AH-02,Pet Supplies,31,Low,3.8,3.7,1.5,Yes,Out of Stock,2.0,756,Yes,Rainy
+ORD1473,Ahmedabad,DS-AH-02,Fruits & Vegetables,32,Medium,3.7,3.8,3.4,No,In Stock,9.8,2018,Yes,Clear
+ORD1474,Hyderabad,DS-HY-03,Frozen Food,22,Low,4.9,4.5,4.1,No,In Stock,7.0,1823,No,Rainy
+ORD1475,Ahmedabad,DS-AH-03,Beverages,24,Low,5.0,4.8,4.6,No,In Stock,4.3,1015,No,Foggy
+ORD1476,Chennai,DS-CH-01,Pet Supplies,39,High,4.8,3.6,2.1,No,Low Stock,6.2,1318,No,Clear
+ORD1477,Kolkata,DS-KL-02,Household,30,Medium,3.9,4.3,1.4,No,In Stock,5.5,751,No,Foggy
+ORD1478,Mumbai,DS-MH-01,Grocery,37,High,4.1,3.5,1.6,No,In Stock,1.9,513,No,Clear
+ORD1479,Ahmedabad,DS-AH-02,Dairy,23,Low,3.9,4.5,7.4,No,In Stock,9.6,329,No,Foggy
+ORD1480,Kolkata,DS-KL-01,Frozen Food,29,Medium,3.6,3.7,6.6,No,Low Stock,9.0,872,No,Foggy
+ORD1481,Ahmedabad,DS-AH-02,Snacks,34,Medium,3.7,4.2,3.6,No,In Stock,6.1,2149,No,Foggy
+ORD1482,Bangalore,DS-BL-01,Frozen Food,19,Low,4.0,4.2,4.2,No,Low Stock,4.1,310,No,Cloudy
+ORD1483,Chennai,DS-CH-02,Beverages,27,Medium,3.6,3.7,1.9,No,In Stock,1.8,468,No,Foggy
+ORD1484,Pune,DS-PN-01,Personal Care,22,Low,4.5,4.5,3.1,No,In Stock,1.2,2123,No,Clear
+ORD1485,Mumbai,DS-MH-03,Frozen Food,34,Medium,4.2,4.2,4.8,No,In Stock,8.3,1590,No,Clear
+ORD1486,Bangalore,DS-BL-03,Personal Care,42,High,4.8,2.8,2.1,No,In Stock,6.2,1125,Yes,Foggy
+ORD1487,Delhi,DS-DL-01,Pet Supplies,31,Medium,4.0,3.6,4.3,No,In Stock,3.7,2411,Yes,Foggy
+ORD1488,Chennai,DS-CH-01,Frozen Food,29,Medium,4.8,4.1,4.9,No,Out of Stock,5.2,2382,No,Rainy
+ORD1489,Kolkata,DS-KL-03,Grocery,24,Medium,3.9,4.8,4.1,No,Low Stock,4.7,463,No,Foggy
+ORD1490,Hyderabad,DS-HY-02,Fruits & Vegetables,44,High,3.9,2.7,1.1,No,Low Stock,3.8,2188,Yes,Cloudy
+ORD1491,Kolkata,DS-KL-02,Grocery,20,Low,4.7,4.4,3.2,No,In Stock,1.4,2190,No,Rainy
+ORD1492,Mumbai,DS-MH-01,Beverages,28,Medium,4.8,4.2,4.5,No,In Stock,8.6,775,No,Clear
+ORD1493,Hyderabad,DS-HY-01,Pet Supplies,49,High,3.9,2.7,4.2,Yes,In Stock,4.5,1166,Yes,Cloudy
+ORD1494,Kolkata,DS-KL-01,Snacks,27,Low,3.9,4.1,3.0,No,In Stock,9.5,1496,Yes,Cloudy
+ORD1495,Kolkata,DS-KL-02,Dairy,54,High,4.1,3.0,6.6,Yes,Out of Stock,7.7,423,Yes,Cloudy
+ORD1496,Hyderabad,DS-HY-02,Baby Care,30,Medium,4.8,4.4,2.6,Yes,Out of Stock,9.8,1246,No,Clear
+ORD1497,Pune,DS-PN-01,Dairy,29,Low,4.8,4.3,5.6,No,In Stock,8.8,2213,Yes,Foggy
+ORD1498,Ahmedabad,DS-AH-03,Frozen Food,35,High,4.7,4.2,6.0,No,In Stock,6.4,2443,No,Foggy
+ORD1499,Chennai,DS-CH-02,Grocery,38,High,4.1,3.4,2.3,No,In Stock,2.4,2315,Yes,Foggy
+ORD1500,Bangalore,DS-BL-04,Personal Care,31,Medium,4.4,3.8,2.1,No,In Stock,4.3,1811,Yes,Cloudy
