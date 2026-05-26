@@ -77,9 +77,6 @@ The dataset contains 500 rows of simulated quick-commerce operational data.
 
 - Microsoft Excel
 - Power BI
-- Google Sheets
-- Canva
-- Draw.io
 
 ---
 
@@ -89,13 +86,12 @@ The following KPIs were analyzed:
 
 | KPI | Description |
 |---|---|
+|Total orders | Number of Total Orders Received |
 | Average Delivery Time | Measures delivery efficiency |
 | Cancellation Rate | Tracks cancelled orders |
 | Customer Satisfaction Rating | Measures customer experience |
-| Inventory Wastage % | Measures operational losses |
 | On-Time Delivery % | Tracks delivery performance |
 | Peak Hour Delay % | Measures operational pressure during rush hours |
-| Stock Availability Rate | Tracks inventory efficiency |
 
 ---
 
@@ -170,7 +166,6 @@ Some major insights identified from the analysis:
 
 Root cause analysis was performed using:
 
-- Fishbone Diagram
 - 5 Whys Analysis
 
 ## Major Causes Identified
